@@ -1,3 +1,0 @@
-import comp from "/data/data/com.termux/files/home/dvnge-docs/docs/.vuepress/.temp/pages/docs/章节概念.html.vue"
-const data = JSON.parse("{\"path\":\"/docs/%E7%AB%A0%E8%8A%82%E6%A6%82%E5%BF%B5.html\",\"title\":\"章节概念\",\"lang\":\"zh-CN\",\"frontmatter\":{\"description\":\"说明Dvnge视觉小说引擎的章节系统，了解如何创建章节文件、配置章节列表、编写游戏逻辑。\"},\"headers\":[],\"filePathRelative\":\"docs/章节概念.md\",\"git\":{\"createdTime\":1781699523000,\"updatedTime\":1781699523000,\"contributors\":[{\"name\":\"TTQWNTian\",\"username\":\"TTQWNTian\",\"email\":\"ttqwntian@qq.com\",\"commits\":1,\"url\":\"https://github.com/TTQWNTian\"}]},\"readingTime\":{\"minutes\":1.35,\"words\":406}}")
-export { comp, data }

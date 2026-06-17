@@ -1,3 +1,0 @@
-import comp from "/data/data/com.termux/files/home/dvnge-docs/docs/.vuepress/.temp/pages/docs/什么是节点.html.vue"
-const data = JSON.parse("{\"path\":\"/docs/%E4%BB%80%E4%B9%88%E6%98%AF%E8%8A%82%E7%82%B9.html\",\"title\":\"什么是节点？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"description\":\"说明Dvnge视觉小说引擎的节点概念，节点是引擎的基本单位，可设置角色、内容、立绘、背景等一切属性。\"},\"headers\":[],\"filePathRelative\":\"docs/什么是节点.md\",\"git\":{\"createdTime\":1781699523000,\"updatedTime\":1781699523000,\"contributors\":[{\"name\":\"TTQWNTian\",\"username\":\"TTQWNTian\",\"email\":\"ttqwntian@qq.com\",\"commits\":1,\"url\":\"https://github.com/TTQWNTian\"}]},\"readingTime\":{\"minutes\":0.72,\"words\":215}}")
-export { comp, data }

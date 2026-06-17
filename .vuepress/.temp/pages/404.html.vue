@@ -1,7 +1,7 @@
 <template><div><p>404 Not Found</p>
 </div></template>
 <script>
-export const _pageData = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"NotFound\"},\"filePathRelative\":null,\"git\":{},\"readingTime\":{\"minutes\":0.01,\"words\":3}}")
+export const _pageData = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"NotFound\"},\"filePathRelative\":null,\"git\":{}}")
 export default { name: "404.html.vue" }
 
 if (import.meta.webpackHot) {

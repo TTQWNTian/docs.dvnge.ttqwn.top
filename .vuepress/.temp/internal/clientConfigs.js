@@ -10,6 +10,7 @@ import * as clientConfig8 from '/data/data/com.termux/files/home/dvnge-docs/node
 import * as clientConfig9 from '/data/data/com.termux/files/home/dvnge-docs/.vuepress/.temp/shiki/config.js'
 import * as clientConfig10 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-copy-code/dist/client/config.js'
 import * as clientConfig11 from '/data/data/com.termux/files/home/dvnge-docs/.vuepress/.temp/git/config.js'
+import * as clientConfig12 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-search/dist/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -24,4 +25,5 @@ export const clientConfigs = [
   clientConfig9,
   clientConfig10,
   clientConfig11,
+  clientConfig12,
 ].map((m) => m.default).filter(Boolean)

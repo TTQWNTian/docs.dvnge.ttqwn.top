@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: https://dvnge.ttqwn.top/favicon.png
+heroImage: /favicon.png
 actions:
   - text: 下载正式版
     link: https://github.com/TTQWNTian/Dvnge/releases/latest/download/Dvnge.zip
@@ -13,10 +13,10 @@ actions:
 
 features:
   - title: 零依赖
-    details: 一款零依赖、开源免费、轻量级、基于JavaScript的视觉小说引擎！
-  - title: 简单易学的游戏制作流程
+    details: 使用Web原生三件套，完全不需要安装复杂的配件，快速运行。
+  - title: 简单易学
     details: 角色、内容、立绘、选项等直观的中文键名，轻松上手。
-  - title: 浏览器一键运行
+  - title: 浏览器运行
     details: 不需要专业的设备，只要能运行Web的地方都能制作游戏！
   - title: 多端适配
     details: Web特性，支持PC端、手机端屏幕自动适配。

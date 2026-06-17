@@ -4,15 +4,28 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { gitPlugin } from '@vuepress/plugin-git'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'Dvnge',
   description: 'Dvnge视觉小说引擎的官方文档',
 
-  theme: defaultTheme({
-    logo: 'https://dvnge.ttqwn.top/favicon.png',
+  bundler: viteBundler({
+    viteOptions: {
+      plugins: [
+        {
+          name: 'force-html-lang',
+          transformIndexHtml(html) {
+            return html.replace(/<html lang="[^"]*"/, '<html lang="zh-CN"')
+          },
+        },
+      ],
+    },
+  }),
 
+  theme: defaultTheme({
+    logo: '/favicon.png',
     lastUpdated: true,
     contributors: true,
 
@@ -44,18 +57,13 @@ export default defineUserConfig({
   }),
 
   plugins: [
-    shikiPlugin({
-      theme: 'catppuccin-mocha',
-    }),
-    copyCodePlugin({
-      showInMobile: true,
-    }),
+    shikiPlugin({ theme: 'catppuccin-mocha' }),
+    copyCodePlugin({ showInMobile: true }),
     gitPlugin({
       createdTime: true,
       updatedTime: true,
       contributors: true,
     }),
+    searchPlugin(),
   ],
-
-  bundler: viteBundler(),
 })
