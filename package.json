@@ -1,0 +1,22 @@
+{
+  "name": "dvnge-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.30",
+    "@vuepress/plugin-copy-code": "^2.0.0-rc.130",
+    "@vuepress/plugin-git": "^2.0.0-rc.130",
+    "@vuepress/plugin-reading-time": "^2.0.0-rc.130",
+    "@vuepress/plugin-shiki": "^2.0.0-rc.130",
+    "@vuepress/theme-default": "^2.0.0-rc.130",
+    "vuepress": "^2.0.0-rc.30"
+  }
+}
