@@ -1,17 +1,16 @@
-import * as clientConfig0 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-active-header-links/dist/client/config.js'
-import * as clientConfig1 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-back-to-top/dist/client/config.js'
-import * as clientConfig2 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-markdown-hint/dist/client/config.js'
-import * as clientConfig3 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-medium-zoom/dist/client/config.js'
-import * as clientConfig4 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-nprogress/dist/client/config.js'
-import * as clientConfig5 from '/data/data/com.termux/files/home/dvnge-docs/.vuepress/.temp/prismjs/config.js'
-import * as clientConfig6 from '/data/data/com.termux/files/home/dvnge-docs/.vuepress/.temp/markdown-tab/config.js'
-import * as clientConfig7 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-theme-data/dist/client/config.js'
-import * as clientConfig8 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/theme-default/dist/client/config.js'
-import * as clientConfig9 from '/data/data/com.termux/files/home/dvnge-docs/.vuepress/.temp/shiki/config.js'
-import * as clientConfig10 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-copy-code/dist/client/config.js'
-import * as clientConfig11 from '/data/data/com.termux/files/home/dvnge-docs/.vuepress/.temp/git/config.js'
-import * as clientConfig12 from '/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-search/dist/client/config.js'
-import * as clientConfig13 from '/data/data/com.termux/files/home/dvnge-docs/.vuepress/.temp/icon/config.js'
+import * as clientConfig0 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-active-header-links/dist/client/config.js'
+import * as clientConfig1 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-back-to-top/dist/client/config.js'
+import * as clientConfig2 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-markdown-hint/dist/client/config.js'
+import * as clientConfig3 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-medium-zoom/dist/client/config.js'
+import * as clientConfig4 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-nprogress/dist/client/config.js'
+import * as clientConfig5 from '/data/data/com.termux/files/home/dvnge-website/.vuepress/.temp/markdown-tab/config.js'
+import * as clientConfig6 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-theme-data/dist/client/config.js'
+import * as clientConfig7 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/theme-default/dist/client/config.js'
+import * as clientConfig8 from '/data/data/com.termux/files/home/dvnge-website/.vuepress/.temp/prismjs/config.js'
+import * as clientConfig9 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-copy-code/dist/client/config.js'
+import * as clientConfig10 from '/data/data/com.termux/files/home/dvnge-website/.vuepress/.temp/git/config.js'
+import * as clientConfig11 from '/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-search/dist/client/config.js'
+import * as clientConfig12 from '/data/data/com.termux/files/home/dvnge-website/.vuepress/.temp/icon/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -27,5 +26,4 @@ export const clientConfigs = [
   clientConfig10,
   clientConfig11,
   clientConfig12,
-  clientConfig13,
 ].map((m) => m.default).filter(Boolean)

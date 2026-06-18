@@ -1,5 +1,5 @@
-import { CodeTabs } from "/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-markdown-tab/dist/client/components/CodeTabs.js";
-import { Tabs } from "/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-markdown-tab/dist/client/components/Tabs.js";
+import { CodeTabs } from "/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-markdown-tab/dist/client/components/CodeTabs.js";
+import { Tabs } from "/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-markdown-tab/dist/client/components/Tabs.js";
 
 export default {
   enhance: ({ app }) => {

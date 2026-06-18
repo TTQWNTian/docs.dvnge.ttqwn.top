@@ -7,3 +7,24 @@
     margin: 4px 4px;
   }
 }
+
+div[class*="language-"].line-numbers-mode {
+  overflow: hidden;
+  
+  .line-numbers {
+    background-color: var(--vp-c-bg-alt) !important;
+    height: 100% !important;
+    
+    .line-number {
+      color: var(--vp-c-accent) !important;
+    }
+  }
+}
+
+html[data-theme="dark"] {
+  div[class*="language-"].line-numbers-mode {
+    pre {
+      background-color: #282A36 !important;
+    }
+  }
+}

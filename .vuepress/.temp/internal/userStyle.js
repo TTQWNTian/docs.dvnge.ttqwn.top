@@ -1,1 +1,1 @@
-import "/data/data/com.termux/files/home/dvnge-docs/.vuepress/styles/index.scss"
+import "/data/data/com.termux/files/home/dvnge-website/.vuepress/styles/index.scss"

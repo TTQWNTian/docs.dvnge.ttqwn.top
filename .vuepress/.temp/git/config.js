@@ -1,4 +1,4 @@
-import { GitContributors } from "/data/data/com.termux/files/home/dvnge-docs/node_modules/@vuepress/plugin-git/dist/client/components/GitContributors.js";
+import { GitContributors } from "/data/data/com.termux/files/home/dvnge-website/node_modules/@vuepress/plugin-git/dist/client/components/GitContributors.js";
 
 export default {
   enhance: ({ app }) => {

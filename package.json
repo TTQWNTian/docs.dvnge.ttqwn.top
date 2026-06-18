@@ -1,7 +1,7 @@
 {
-  "name": "dvnge-docs",
+  "name": "dvnge-website",
   "version": "0.0.1",
-  "description": "Dvnge官方文档",
+  "description": "Dvnge官方网站",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,9 +18,11 @@
     "@vuepress/plugin-git": "^2.0.0-rc.130",
     "@vuepress/plugin-icon": "^2.0.0-rc.130",
     "@vuepress/plugin-search": "^2.0.0-rc.130",
-    "@vuepress/plugin-shiki": "^2.0.0-rc.130",
     "@vuepress/theme-default": "^2.0.0-rc.130",
     "sass-embedded": "^1.100.0",
     "vuepress": "^2.0.0-rc.30"
+  },
+  "dependencies": {
+    "@vuepress/plugin-shiki": "^2.0.0-rc.130"
   }
 }

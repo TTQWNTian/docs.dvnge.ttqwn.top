@@ -1,11 +1,12 @@
+// .vuepress/config.js
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
-import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { gitPlugin } from '@vuepress/plugin-git'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { iconPlugin } from '@vuepress/plugin-icon'
+import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -79,7 +80,10 @@ export default defineUserConfig({
   }),
 
   plugins: [
-    shikiPlugin({ theme: 'catppuccin-mocha' }),
+    prismjsPlugin({
+      theme: 'shades-of-purple',
+      lineNumbers: true,
+    }),
     copyCodePlugin({ showInMobile: true }),
     gitPlugin({
       createdTime: true,
