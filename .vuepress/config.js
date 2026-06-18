@@ -11,6 +11,10 @@ export default defineUserConfig({
   title: 'Dvnge',
   description: 'Dvnge视觉小说引擎的官方文档',
   
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+  ],
+  
   markdown: {
     html: true,
   },
@@ -33,7 +37,7 @@ export default defineUserConfig({
     lastUpdated: true,
     contributors: true,
     
-    repo: 'ttqwntian/docs.dvnge.ttqwn.top',
+    repo: 'ttqwntian/dvnge-docs',
     editLink: true,
     
     locales: {
