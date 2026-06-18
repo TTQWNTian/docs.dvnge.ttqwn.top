@@ -4,23 +4,9 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 3,
-        "title": "仓库的提交详情：",
-        "slug": "仓库的提交详情",
-        "link": "#仓库的提交详情",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "超轻量：",
-        "slug": "超轻量",
-        "link": "#超轻量",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "语言详情：",
-        "slug": "语言详情",
-        "link": "#语言详情",
+        "title": "仓库详情：",
+        "slug": "仓库详情",
+        "link": "#仓库详情",
         "children": []
       },
       {

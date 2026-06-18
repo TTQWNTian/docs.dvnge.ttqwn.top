@@ -10,6 +10,10 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: 'Dvnge',
   description: 'Dvnge视觉小说引擎的官方文档',
+  
+  markdown: {
+    html: true,
+  },
 
   bundler: viteBundler({
     viteOptions: {
@@ -28,11 +32,24 @@ export default defineUserConfig({
     logo: '/favicon.png',
     lastUpdated: true,
     contributors: true,
-
+    
+    repo: 'ttqwntian/docs.dvnge.ttqwn.top',
+    editLink: true,
+    
+    locales: {
+      '/': {
+        selectLanguageName: '简体中文',
+        editLinkText: '在 GitHub 上编辑此页',
+        lastUpdatedText: '最后更新',
+        contributorsText: '贡献者',
+        next: '下一页',
+        prev: '上一页',
+      },
+    },
+    
     navbar: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/docs/Dvnge的文件.html' },
-      { text: 'GitHub', link: 'https://github.com/TTQWNTian/Dvnge' },
     ],
 
     sidebar: [

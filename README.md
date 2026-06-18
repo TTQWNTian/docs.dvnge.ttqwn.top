@@ -29,30 +29,25 @@ features:
   - title: 超轻量
     details: 代码体积小，仓库轻量，快速下载和部署。
 
-footer: MIT Licensed | Copyright © 2025-present Dvnge
+footerHtml: true
+footer: 'Mozilla Public License 2.0 | Copyright © 2025-present Dvnge | Made with ❤️ by <a href="https://github.com/ttqwntian" target="_blank">TTQwnTian</a>'
 ---
 
-### 仓库的提交详情：
-
+### 仓库详情：
 ![年度提交](https://img.shields.io/github/commit-activity/y/TTQWNTian/Dvnge?label=年度提交)
 ![每月提交数](https://img.shields.io/github/commit-activity/m/TTQWNTian/Dvnge?label=每月提交)
 ![周提交](https://img.shields.io/github/commit-activity/w/TTQWNTian/Dvnge?label=每周提交)
 ![最后一次提交时间](https://img.shields.io/github/last-commit/TTQWNTian/Dvnge?label=最后提交)
-
-### 超轻量：
-
 ![代码大小](https://img.shields.io/github/languages/code-size/TTQWNTian/Dvnge?label=代码大小&style=social)
 ![仓库大小](https://img.shields.io/github/repo-size/TTQWNTian/Dvnge?label=仓库大小&style=social)
-
-### 语言详情：
-
 ![语言统计](https://img.shields.io/github/languages/count/TTQWNTian/Dvnge?label=语言数量)
 ![主要语言](https://img.shields.io/github/languages/top/TTQWNTian/Dvnge)
 
 ### 贡献者：
+<div class="readme-contributor">
+  <img src="https://contrib.rocks/image?repo=TTQWNTian/Dvnge" />
+</div>
 
-![贡献者头像](https://contrib.rocks/image?repo=TTQWNTian/Dvnge)
-
-[快来使用Dvnge吧！](https://github.com/TTQWNTian/Dvnge/releases/latest/download/Dvnge.zip)
+[快下载Dvnge吧！](https://github.com/TTQWNTian/Dvnge/releases/latest/download/Dvnge.zip)
 
 ![点击gif](/img/尾碕小鼻嘎-戳小.gif) 
