@@ -7,6 +7,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Dvnge插件",
+    "headers": [],
+    "path": "/plugins/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Dvnge的文件",
     "headers": [
       {
@@ -178,13 +185,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Dvnge插件",
-    "headers": [],
-    "path": "/plugins/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -192,3 +192,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

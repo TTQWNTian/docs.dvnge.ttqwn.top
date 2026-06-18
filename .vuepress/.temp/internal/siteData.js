@@ -1,1 +1,12 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"Dvnge视觉小说引擎的官方文档\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"Dvnge视觉小说引擎的官方文档\"}}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"欢迎来到本引擎的官方网站！\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"欢迎来到本引擎的官方网站！\"}}}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  __VUE_HMR_RUNTIME__.updateSiteData?.(siteData)
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept((m) => {
+    __VUE_HMR_RUNTIME__.updateSiteData?.(m.siteData)
+  })
+}

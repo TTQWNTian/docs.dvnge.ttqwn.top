@@ -16,6 +16,7 @@
     "@vuepress/bundler-vite": "^2.0.0-rc.30",
     "@vuepress/plugin-copy-code": "^2.0.0-rc.130",
     "@vuepress/plugin-git": "^2.0.0-rc.130",
+    "@vuepress/plugin-icon": "^2.0.0-rc.130",
     "@vuepress/plugin-search": "^2.0.0-rc.130",
     "@vuepress/plugin-shiki": "^2.0.0-rc.130",
     "@vuepress/theme-default": "^2.0.0-rc.130",

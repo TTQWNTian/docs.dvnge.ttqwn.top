@@ -5,11 +5,12 @@ import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { gitPlugin } from '@vuepress/plugin-git'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { iconPlugin } from '@vuepress/plugin-icon'
 
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'Dvnge',
-  description: 'Dvnge视觉小说引擎的官方文档',
+  description: '欢迎来到本引擎的官方网站！',
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
@@ -37,7 +38,7 @@ export default defineUserConfig({
     lastUpdated: true,
     contributors: true,
     
-    repo: 'ttqwntian/dvnge-docs',
+    repo: 'ttqwntian/dvnge-site',
     editLink: true,
     
     locales: {
@@ -86,5 +87,6 @@ export default defineUserConfig({
       contributors: true,
     }),
     searchPlugin(),
+    iconPlugin(),
   ],
 })
