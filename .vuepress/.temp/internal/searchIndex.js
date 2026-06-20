@@ -100,6 +100,21 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Dvnge 文档",
+    "headers": [
+      {
+        "level": 2,
+        "title": "脚本教程",
+        "slug": "脚本教程",
+        "link": "#脚本教程",
+        "children": []
+      }
+    ],
+    "path": "/docs/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "什么是节点？",
     "headers": [],
     "path": "/docs/%E4%BB%80%E4%B9%88%E6%98%AF%E8%8A%82%E7%82%B9.html",
@@ -150,7 +165,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "立绘系统",
+    "title": "立绘",
     "headers": [
       {
         "level": 2,
@@ -188,7 +203,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/docs/%E7%AB%8B%E7%BB%98%E7%B3%BB%E7%BB%9F.html",
+    "path": "/docs/%E7%AB%8B%E7%BB%98.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -200,7 +215,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Dvnge插件",
+    "title": "Dvnge 插件",
     "headers": [],
     "path": "/plugins/",
     "pathLocale": "/",
@@ -214,3 +229,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

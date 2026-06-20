@@ -3,12 +3,12 @@ home: true
 title: 首页
 heroImage: /favicon.png
 actions:
-  - text: 下载正式版
+  - text: 下载Dvnge
     link: https://github.com/TTQWNTian/Dvnge/releases/latest/download/Dvnge.zip
     type: primary
 
-  - text: 下载dev版
-    link: https://github.com/TTQWNTian/Dvnge/archive/refs/heads/main.zip
+  - text: 查看文档
+    link: /docs/
     type: secondary
 
 features:

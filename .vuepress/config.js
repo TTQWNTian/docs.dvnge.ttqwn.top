@@ -7,6 +7,7 @@ import { gitPlugin } from '@vuepress/plugin-git'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { iconPlugin } from '@vuepress/plugin-icon'
 import { prismjsPlugin } from '@vuepress/plugin-prismjs'
+import { markdownFileTreePlugin } from '@vuepress/plugin-markdown-file-tree'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -55,28 +56,40 @@ export default defineUserConfig({
     
     navbar: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/docs/Dvnge的文件.html' },
+      { text: '文档', link: '/docs/' },
+      { text: '插件', link: '/plugins/' },
     ],
-
-    sidebar: [
-      {
-        text: '开始',
-        collapsible: true,
-        children: [
-          '/docs/Dvnge的文件.md',
-          '/docs/章节概念.md',
-          '/docs/什么是节点.md',
-        ],
-      },
-      {
-        text: '基础',
-        collapsible: true,
-        children: [
-          '/docs/基础属性.md',
-          '/docs/立绘系统.md',
-        ],
-      },
-    ],
+    sidebar: {
+      '/docs/': [
+        {
+          text: '开始',
+          collapsible: true,
+          children: [
+            '/docs/Dvnge的文件.md',
+            '/docs/章节概念.md',
+            '/docs/什么是节点.md',
+          ],
+        },
+        {
+          text: '基础',
+          collapsible: true,
+          children: [
+            '/docs/基础属性.md',
+            '/docs/立绘.md',
+          ],
+        },
+      ],
+      '/plugins/': [
+        {
+          text: '插件列表',
+          collapsible: true,
+          children: [
+            /*'/plugins/插件A.md',
+            '/plugins/插件B.md',*/
+          ],
+        },
+      ],
+    },
   }),
 
   plugins: [
@@ -92,5 +105,6 @@ export default defineUserConfig({
     }),
     searchPlugin(),
     iconPlugin(),
+    markdownFileTreePlugin(),
   ],
 })
